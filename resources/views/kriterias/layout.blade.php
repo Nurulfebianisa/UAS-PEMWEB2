@@ -263,6 +263,16 @@
                         </a>
                     </li>
 
+                        <li class="nav-item">
+              <a href="prodi" class="nav-link">
+                <i class="nav-icon fas fa-th"></i>
+                <p>
+                  Data Prodi
+                </p>
+              </a>
+              </li>
+  
+
                     <li class="nav-item">
                         <a href="University" class="nav-link">
                           <i class="nav-icon fas fa-th"></i>

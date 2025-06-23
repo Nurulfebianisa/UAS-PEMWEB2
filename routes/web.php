@@ -58,6 +58,9 @@ use App\Http\Controllers\HalamanAdminController;
 // Routes Admin
 Route::get('/admin', [HalamanAdminController::class, 'index']);
 Route::get('/prodi', [ProdiController::class, 'index']);
+
+Route::resource('prodis', ProdiController::class);
+
 Route::get('/alternatif', [DataProdiController::class, 'index']);
 Route::get('/createProdi', [DataProdiController::class, 'create']);
 Route::resource('/kriterias', KriteriaController::class);
